@@ -1,0 +1,17 @@
+{
+	"name": "wait_pipe",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait_activity",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
