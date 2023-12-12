@@ -22,7 +22,7 @@ jobs:
             resourceGroup: 'vasgroup'
             clientId: ${{secrets.CLIENTID}}
             clientSecret: ${{secrets.CLIENTSECRET}}
-            subscriptionId: '0efd0e57-a7dd-4bf4-9471-a92a8a9d503a'
-            tenantId: '3d34eb6d-1a2e-4803-a2ff-ec537e88d92c'
+            subscriptionId: '5d65eaa1-4ee9-4517-b1b4-60c103498c3a'
+            tenantId: '901a5115-7686-4535-8f74-b18c3535b1ee'
             DeleteArtifactsNotInTemplate: 'false'
             managedIdentity: 'False'
