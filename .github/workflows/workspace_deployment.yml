@@ -20,8 +20,8 @@ jobs:
            # OverrideArmParameters: './path of the parameters.yaml'
             environment: 'Azure Public'
             resourceGroup: 'vasgroup'
-            clientId: 'ed376c09-c03a-4827-93c1-fc99df409b87'
-            clientSecret: '41q8Q~qJLU36NwVd7NuO67U7cPizOWhxXWwuFdnA'
+            clientId: ${{secrets.CLIENTID}}
+            clientSecret: ${{secrets.CLIENTSECRET}}
             subscriptionId: '0efd0e57-a7dd-4bf4-9471-a92a8a9d503a'
             tenantId: '3d34eb6d-1a2e-4803-a2ff-ec537e88d92c'
             DeleteArtifactsNotInTemplate: 'false'
